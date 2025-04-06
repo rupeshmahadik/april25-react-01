@@ -1,0 +1,252 @@
+/* header {
+  color: #edc84b;
+  font-size: 50px;
+  text-align: center;
+}
+
+.container-main-pizza {
+  background-color: #f7f2e9;
+}
+
+.pizza-menu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pizza-menu-container img {
+  height: 340px;
+  width: 320px;
+}
+
+.pizza-menu-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.sold-out {
+  opacity: 0.5;
+}
+footer {
+  text-align: center;
+} */
+
+/* pizza.css - Style 1 */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fef6e4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #f8c291;
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.container-main-pizza {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.pizza-menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+.pizza-menu-box {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.pizza-menu-box:hover {
+  transform: scale(1.03);
+}
+
+.pizza-menu-box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.pizza-menu-box div {
+  padding: 1rem;
+}
+
+.pizza-menu-box p {
+  margin: 0.3rem 0;
+}
+
+.sold-out {
+  color: red;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #f8c291;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+footer button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #e17055;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer button:hover {
+  background-color: #d35400;
+}
+.search-box {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 60%;
+  max-width: 400px;
+  font-size: 16px;
+}
+
+/* @keyframes flyIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fly-in {
+  animation: flyIn 0.5s ease-out forwards;
+} */
+
+/* pizza.css - style 2*/
+/* 
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1.5rem 0;
+  color: #f4a261;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-top: 2px solid #f4a261;
+  border-bottom: 2px solid #f4a261;
+  margin-bottom: 2rem;
+}
+
+.container-main-pizza {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.pizza-menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.pizza-menu-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.pizza-menu-box img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  filter: grayscale(0.2);
+}
+
+.pizza-menu-box h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.pizza-menu-box p {
+  text-align: left;
+  margin: 0.25rem 0;
+}
+
+.sold-out {
+  color: #aaa;
+  font-style: italic;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+footer button {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #e9b949;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #d4a437;
+} */

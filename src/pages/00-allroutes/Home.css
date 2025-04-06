@@ -1,0 +1,29 @@
+.main-home {
+  text-align: center;
+  padding: 3rem;
+}
+
+.link-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+
+.link-card {
+  background: #fff8dc;
+  padding: 1rem 2rem;
+  border: 2px solid #f4a261;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.link-card:hover {
+  background-color: #fff0b3;
+  transform: translateY(-4px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
