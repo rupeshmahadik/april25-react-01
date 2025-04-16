@@ -1,0 +1,75 @@
+.card03-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card03 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card03-avatar img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.card03-info {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card03-info h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.card03-info p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.card03-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.card03-skill {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.load-more {
+  display: inline-block;
+  margin-top: 20px;
+  align-self: flex-end;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.load-more:hover {
+  background-color: #0056b3;
+}

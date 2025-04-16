@@ -15,6 +15,15 @@ export default function Home() {
         <Link to="/steps" className="link-card">
           📋 Step Tracker
         </Link>
+        <Link to="/cards" className="link-card">
+          📇 Cards
+        </Link>
+        <Link to="/travellist" className="link-card">
+          💼 Travel List
+        </Link>
+        <Link to="/components" className="link-card">
+          💻 Components
+        </Link>
         {/* Add more as you build more apps */}
       </div>
     </div>

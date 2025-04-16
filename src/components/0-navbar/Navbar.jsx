@@ -16,6 +16,15 @@ function Navbar() {
         <li>
           <NavLink to="/steps">Steps</NavLink>
         </li>
+        <li>
+          <NavLink to="/cards">Cards</NavLink>
+        </li>
+        <li>
+          <NavLink to="/travellist">Travel List</NavLink>
+        </li>
+        <li>
+          <NavLink to="/components">Components</NavLink>
+        </li>
         {/* more links here as my app grows */}
       </ul>
     </nav>
