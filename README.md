@@ -1,3 +1,10 @@
+# App Stcture
+
+    - NavBar & AllRoutes component in app.jsx
+    - AllRoutes has all the routes on the app
+    - each section has one main page and that page has all its related components pages navlink
+    - in components there are diffrent folders for different components
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

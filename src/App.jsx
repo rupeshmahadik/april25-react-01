@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className={darkMode ? "dark" : ""}>
         <h2 className="center">🌸 The Ultimate React 🌸</h2>
-        <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} />
+        {/* <DarkMode darkMode={darkMode} setDarkMode={setDarkMode} /> */}
         <Navbar />
         <AllRoutes />
       </div>

@@ -1,0 +1,178 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.center {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.travel-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.travel-form-select,
+.travel-sort-select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.travel-form input,
+.travel-form-select,
+.travel-form button {
+  flex: none;
+}
+
+.travel-form input {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.travel-form button,
+.btn-clear {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.travel-form button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.travel-form button:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.package-list {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.package-list-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.package-list-items li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  gap: 10px;
+}
+
+.package-list-items li span {
+  flex-grow: 1;
+}
+
+.package-list-items li:last-child {
+  border-bottom: none;
+}
+
+.package-list-items input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.package-list-items input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #0056b3;
+  position: relative;
+}
+
+.package-list-items input[type="checkbox"]:checked::after {
+  content: "\2713";
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 2px;
+  left: 4px;
+}
+
+.package-list-items input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.package-list-items .btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.package-list-items .btn:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.package-list-items .btn:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stats {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.stats span {
+  display: block;
+  margin-top: 5px;
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .travel-form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .package-list {
+    width: 95%;
+  }
+
+  .stats {
+    font-size: 16px;
+  }
+}
